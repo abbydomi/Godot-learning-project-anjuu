@@ -18,6 +18,11 @@ _global_script_class_icons={
 config/name="Godot learning project"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=1280
+window/size/height=720
+
 [input]
 
 ui_left={
@@ -51,4 +56,6 @@ ui_down={
 
 [rendering]
 
-environment/default_environment="res://default_env.tres"
+quality/filters/anisotropic_filter_level=8
+quality/filters/msaa=4
+environment/default_environment="res://level environment.tres"
